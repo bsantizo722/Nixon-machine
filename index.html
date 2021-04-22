@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image" href="usa-map.png">
+    <link rel="stylesheet" href="vote.css">
+    <script src="vote.js"></script>
+    <title>Regular voting machine</title>
+</head>
+<body onload="voteHere()">
+    <h1>Please Vote For One:</h1>
+    <form>
+        
+        <div class="row nixBox " >
+            <div class="col-1-1 nixon" >
+                <button onclick="vnixon()"  class="rNixon" type="button" id="nbutton" name="elector" value="Nixon"> <a class="nixButton" href="dab.html">Nixon <img onmouseover="bigHead(this)" onmouseout="smollHead(this)" src="Nixon.png" alt="Smiley" width="32" height="32"></a></button>
+            </div>
+        </div>
+        <div class="row mcBox">
+            <div class="col-1-1 mc">
+                <a href="mcsite.html"><button onclick="myFunction()"  class="rMcGovern" type="button" id="mbutton" name="elector" value="McGovern">McGovern<img onmouseover="bigHead(this)" onmouseout="smollHead(this)" src="mc.png" alt="Smiley" width="32" height="32"></button></a>
+            </div>
+        </div>
+        
+    </form>
+   
+</body>
+</html>
